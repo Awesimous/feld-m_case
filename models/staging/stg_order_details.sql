@@ -1,0 +1,1 @@
+select * from {{source('stg','order_details')}}

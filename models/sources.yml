@@ -1,0 +1,14 @@
+
+version: 2
+
+sources:
+  - name: stg
+    schema: public
+    tables:
+      - name: orders
+      - name: employees
+      - name: order_details
+      - name: categories
+      - name: customers
+      - name: products
+      - name: shippers
