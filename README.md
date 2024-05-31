@@ -13,7 +13,7 @@ This project leverages dbt (data build tool) to transform raw sales data into a 
 
 - **dbt**: For data transformations and creating models.
 - **PostgreSQL**: As the database for executing SQL queries.
-- **dbeaver**: Database administration
+- **dbeaver**: Database administration, sql formatting :)
 - **Git**: For version control.
 - **GitHub**: For repository management.
 - **chatgpt**: Support with db commands, readme file markdown
