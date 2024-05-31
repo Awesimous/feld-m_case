@@ -52,8 +52,9 @@ This project leverages dbt (data build tool) to transform raw sales data into a 
 2. Added extra analysis to compare avg time between orders with delta current_date and last_purchase_date, intending to check what customers are past-due to restock their consumables (see churn analysis below)
 
 
-### Potential Further Analysis:
+### Potential Further Steps & Analysis:
 
+- **Work on Documentation**: Follow-up on model-design with documentation on models and entities used
 - **Customer Lifetime Value (CLV)**: Extend the customer dimension table to include metrics for calculating CLV.
 - **Churn Analysis**: Identify customers who have stopped making purchases and analyze potential reasons.
 - **Sales Forecasting**: Use time series analysis on the sales data to predict future sales trends.
