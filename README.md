@@ -13,8 +13,10 @@ This project leverages dbt (data build tool) to transform raw sales data into a 
 
 - **dbt**: For data transformations and creating models.
 - **PostgreSQL**: As the database for executing SQL queries.
+- **dbeaver**: Database administration
 - **Git**: For version control.
 - **GitHub**: For repository management.
+- **chatgpt**: Support with db commands, readme file markdown
 
 ## Task Details and Thought Process
 
@@ -55,3 +57,7 @@ This project leverages dbt (data build tool) to transform raw sales data into a 
 - **Customer Lifetime Value (CLV)**: Extend the customer dimension table to include metrics for calculating CLV.
 - **Churn Analysis**: Identify customers who have stopped making purchases and analyze potential reasons.
 - **Sales Forecasting**: Use time series analysis on the sales data to predict future sales trends.
+
+### Challenges:
+- **Issues with sqlite and dbt**: Could not get sqlite to work in combination with dbt (maybe due to new dbt version?!)
+- **Load csv files into postgres db**: Format of csv file, Null values to be replaced
